@@ -46,9 +46,7 @@ function App() {
       .get(
         "https://api.openweathermap.org/data/2.5/find?q=" +
           inputText +
-          "&appid=" +
-          process.env.API_KEY +
-          "&units=imperial"
+          "&appid=ce6308b177d61e9bb3c46eab3e6833e9&units=imperial"
       )
       //use data
       .then((res) => {
