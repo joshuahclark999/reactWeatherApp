@@ -17,8 +17,6 @@ function App() {
       },
     },
   });
-  //api key store in dotenv later
-  const key = "ce6308b177d61e9bb3c46eab3e6833e9";
   //declare weatherData for global scope
   
   //set cityName and input text states from empty string to whatever user inputs.
@@ -49,7 +47,7 @@ function App() {
         "https://api.openweathermap.org/data/2.5/find?q=" +
           inputText +
           "&appid=" +
-          key +
+          process.env.API_KEY +
           "&units=imperial"
       )
       //use data
