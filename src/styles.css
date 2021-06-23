@@ -1,0 +1,31 @@
+:root{
+    --dark-blue: #222831;
+    --light-blue: #30475E;
+    --salmon: #F05454;
+    --cream-white: #DDDDDD;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: var(--dark-blue);
+    color: var(--cream-white);
+}
+.icon-container{
+    margin-top: 20px;
+}
+.icon-container a{
+    text-decoration: none;
+    color: var(--cream-white);
+    margin-right: 20px;
+}
+.btn{
+    height: 3.46rem;
+}
+.MuiInputBase-input{
+    color: red;
+}
